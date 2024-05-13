@@ -1,18 +1,18 @@
 import UIKit
 
 class SignUpViewController: UIViewController {
-
+    
     let emailTextField = UITextField(placeholder: "Email")
     let passwordTextField = UITextField(placeholder: "Password")
     let signUpButton = UIButton(title: "Sign Up")
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         view.backgroundColor = .white
         navigationItem.title = "Registration"
         navigationController?.navigationBar.prefersLargeTitles = true
-
+        
         setupUI()
     }
     
@@ -36,7 +36,7 @@ class SignUpViewController: UIViewController {
         }
         
         signUpButton.addAction(action, for: .touchUpInside)
-    
+        
         NSLayoutConstraint.activate([
             emailTextField.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 16),
             emailTextField.widthAnchor.constraint(equalTo: view.widthAnchor, multiplier: 0.9),

@@ -42,7 +42,7 @@ class AuthService {
         GIDSignIn.sharedInstance.configuration = config
         
         
-        GIDSignIn.sharedInstance.signIn(withPresenting: vc) { [unowned self] result, error in
+        GIDSignIn.sharedInstance.signIn(withPresenting: vc) { result, error in
             guard error == nil else {
                 return
             }

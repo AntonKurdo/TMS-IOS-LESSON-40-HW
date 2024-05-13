@@ -26,6 +26,7 @@
 		0417E5BB2BEA8547000A420A /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 0417E5BA2BEA8547000A420A /* GoogleSignIn */; };
 		0417E5BD2BEA8547000A420A /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 0417E5BC2BEA8547000A420A /* GoogleSignInSwift */; };
 		0417E5BF2BEA8C84000A420A /* UILabel+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0417E5BE2BEA8C84000A420A /* UILabel+extension.swift */; };
+		0417E5C12BEA93BB000A420A /* FirestoreService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0417E5C02BEA93BB000A420A /* FirestoreService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,7 @@
 		0417E5B52BEA6E8A000A420A /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		0417E5B72BEA71B7000A420A /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		0417E5BE2BEA8C84000A420A /* UILabel+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+extension.swift"; sourceTree = "<group>"; };
+		0417E5C02BEA93BB000A420A /* FirestoreService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirestoreService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +128,7 @@
 		0417E5B42BEA6E7E000A420A /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				0417E5C02BEA93BB000A420A /* FirestoreService.swift */,
 				0417E5B52BEA6E8A000A420A /* AuthService.swift */,
 			);
 			path = Services;
@@ -216,6 +219,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0417E5B12BEA58C4000A420A /* TextField+extension.swift in Sources */,
+				0417E5C12BEA93BB000A420A /* FirestoreService.swift in Sources */,
 				0417E5602BEA1501000A420A /* SignInViewController.swift in Sources */,
 				0417E55C2BEA1501000A420A /* AppDelegate.swift in Sources */,
 				0417E5AD2BEA1D70000A420A /* SignUpViewController.swift in Sources */,
